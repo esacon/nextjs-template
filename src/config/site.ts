@@ -1,6 +1,6 @@
 import { SiteConfig } from "@/types"
 
-import { env } from "@/env.mjs"
+import { env } from "@/env"
 
 export const siteConfig: SiteConfig = {
     name: "Next Entree",
