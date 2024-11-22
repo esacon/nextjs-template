@@ -3,12 +3,14 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "dev": "next dev",
+        "dev": "next dev --port 3001",
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
+        "lint:fix": "next lint --fix",
         "format": "pnpm prettier ./src --write",
-        "format:check": "pnpm prettier ./src --check"
+        "format:check": "pnpm prettier ./src --check",
+        "prepare": "husky"
     },
     "dependencies": {
         "@hookform/resolvers": "^3.9.1",
