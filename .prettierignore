@@ -1,5 +1,8 @@
-dist
+.prettierignore
 node_modules
 .next
-package.json
+next-env.d.ts
 pnpm-lock.yaml
+.husky
+bun.lockb
+*.toml

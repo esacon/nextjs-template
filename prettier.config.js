@@ -3,7 +3,10 @@ module.exports = {
   endOfLine: "lf",
   semi: false,
   singleQuote: false,
-  tabWidth: 2,
+  tabWidth: 4,
+  printWidth: 80,
+  bracketSpacing: true,
+  arrowParens: "always",
   trailingComma: "es5",
   importOrder: [
     "^(react/(.*)$)|^(react$)",
@@ -23,9 +26,10 @@ module.exports = {
     "",
     "^[./]",
   ],
+  importOrderSeparation: true,
   importOrderParserPlugins: ["typescript", "jsx", "decorators-legacy"],
   plugins: [
-    "@ianvs/prettier-plugin-sort-imports",
+    "@trivago/prettier-plugin-sort-imports",
     "prettier-plugin-tailwindcss",
   ],
 }
